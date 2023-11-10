@@ -26,7 +26,12 @@ function App() {
       <Route path='/about'element={<User/>}/>
       <Route path='/users/:id' element= {<UserDetail/>}/>
       <Route path='/login'element={<Login/>}/>
-     
+      {/* <Youtube/>
+      <Counter/>
+      <Login/>
+      <AuthUser/>
+      <UserList/>
+      <User/> */}
 
    </Routes>
    </>
